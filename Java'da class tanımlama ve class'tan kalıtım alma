@@ -1,0 +1,28 @@
+public class Hayvan{
+     String H_adi;
+     public Hayvan(){
+        H_adi="Hayvan";
+     }
+}
+
+public class Kopek extends Hayvan{
+     String K_adi;
+     public Kopek(){
+        K_adi="Kopek";
+     }
+}
+
+public class Kangal extends Kopek{
+   String KangalAdi;
+   public Kangal(String KangalAdi){
+      this.KangalAdi=KangalAdi;
+   }
+}
+public class MainBlogu{
+   public static void main(String [] args){
+      Kangal Kiku = new Kangal("Kiku");
+      System.out.println($"Kiku.KangalAdi");
+}
+
+//Kodları bir IDE'de denemeden direkt olarak gelişigüzel yazdım.
+//Birtakım ufak tefek hatalar olmuşsa şimdiden özürlerimi arz ediyorum.
